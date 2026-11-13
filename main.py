@@ -87,8 +87,8 @@ st.divider()
 st.header("💌 Say hi!")
 name = st.text_input("What's your name?")
 
-if st.button("Say hi to Maya 🚀"):
+if st.button("Say hi to Me 🚀"):
     st.balloons()
     st.success(f"Yay! Thanks for visiting, {name}! 🎉")
 
-st.caption("Made with 💜 and Python")
+st.caption("Made with Python 🐍")

@@ -45,8 +45,8 @@ col3, col4 = st.columns(2)
 
 with col3:
     with st.container(border=True):
-        st.subheader("🤖 Joke Bot")
-        st.write("A tiny program that tells a new joke every time.")
+        st.subheader("✌️ Rock-Paper-Scissor")
+        st.write("A game where you pull fingers and see who wins based on the `rock-paper-scissor` rule.(https://gamerockpapersciapprsgit-gpqfwcunczgr9f39une2dp.streamlit.app/)")
         st.caption("Made with Python")
 
 with col4:
@@ -90,5 +90,3 @@ name = st.text_input("What's your name?")
 if st.button("Say hi to Me 🚀"):
     st.balloons()
     st.success(f"Yay! Thanks for visiting, {name}! 🎉")
-
-st.caption("Made with Python 🐍")

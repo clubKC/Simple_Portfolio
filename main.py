@@ -7,7 +7,7 @@ st.set_page_config(page_title="Maya's Portfolio", page_icon="🚀")
 # ------------------------------------------------
 
 # ---------- Top of the page ----------
-st.title("👋 Hi, I'm Maya!")
+st.title("👋 Hi, I'm XYZ!")
 st.subheader("I draw, I code tiny games, and I love my cat Biscuit 🐱")
 
 # st.image("me.jpg", width=200)   # <- remove the # and add your own photo!
@@ -60,9 +60,9 @@ st.divider()
 # ---------- Skills ----------
 # Numbers go from 0 to 100
 st.header("💪 What I'm good at")
-st.progress(90, text="Drawing")
-st.progress(80, text="Scratch")
-st.progress(45, text="Python")
+st.progress(90, text="🎨 Drawing")
+st.progress(80, text="🧑‍💻 Scratch")
+st.progress(45, text="🐍 Python")
 
 st.divider()
 
